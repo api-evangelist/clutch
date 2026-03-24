@@ -1,0 +1,91 @@
+aid: clutch
+url: https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml
+apis:
+- aid: clutch:clutch-api
+  name: Clutch API
+  tags:
+  - B2B Reviews
+  - IT Services
+  - Business Services
+  - Ratings
+  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  baseURL: https://api.clutch.co
+  humanURL: https://clutch.co/developers
+  properties:
+  - url: https://clutch.co/developers
+    type: Documentation
+  - url: https://clutch.co/developers#authentication
+    type: Authentication
+  - url: https://clutch.co/profile/claim
+    type: Portal
+  description: >-
+    The Clutch API provides programmatic access to Clutch's B2B ratings and
+    reviews platform, covering IT services, marketing agencies, and business
+    service providers. Developers and verified vendors can retrieve company
+    profiles, ratings, reviews, and service categories. The API enables
+    integration of Clutch review data into third-party applications, websites,
+    and CRM systems, allowing service providers to display verified client
+    reviews and ratings badges. It is used for showcasing social proof,
+    automating review collection, and building integrations with business
+    intelligence and marketing tools. Authentication is handled via API keys
+    issued to approved partners and vendors.
+name: Clutch
+tags:
+- B2B Reviews
+- IT Services
+- Business Services
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+common:
+- url: https://clutch.co/
+  name: Clutch Website
+  type: Website
+- url: https://clutch.co/developers
+  name: API Documentation
+  type: Documentation
+- url: https://clutch.co/profile/claim
+  name: Claim Your Profile
+  type: Portal
+- url: https://clutch.co/register
+  name: Sign Up
+  type: SignUp
+- url: https://clutch.co/login
+  name: Login
+  type: Login
+- url: https://clutch.co/pricing
+  name: Pricing
+  type: Pricing
+- url: https://clutch.co/developers#authentication
+  name: Authentication
+  type: Authentication
+- url: https://clutch.co/about-clutch
+  name: About Clutch
+  type: About
+- url: https://clutch.co/contact-us
+  name: Contact Us
+  type: Support
+- url: https://clutch.co/legal/terms-of-use
+  name: Terms of Use
+  type: TermsOfService
+- url: https://clutch.co/legal/privacy-policy
+  name: Privacy Policy
+  type: PrivacyPolicy
+- url: https://clutch.co/blog
+  name: Clutch Blog
+  type: Blog
+- url: https://twitter.com/clutch_co
+  name: Clutch on X (Twitter)
+  type: X
+- url: https://www.linkedin.com/company/clutch-co
+  name: Clutch on LinkedIn
+  type: LinkedIn
+- url: https://www.facebook.com/clutch.co
+  name: Clutch on Facebook
+  type: Facebook
+- url: https://www.instagram.com/clutch.co
+  name: Clutch on Instagram
+  type: Instagram
+created: '2026-03-24'
+modified: '2026-03-24'
+specificationVersion: '0.19'
