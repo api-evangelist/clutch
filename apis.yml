@@ -1,16 +1,14 @@
 aid: clutch
-url: 
-  https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml
 apis:
   - aid: clutch:clutch-api
     name: Clutch API
     tags:
       - B2B Reviews
-      - IT Services
       - Business Services
+      - IT Services
       - Ratings
-    image: 
-      https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://api.clutch.co
     humanURL: https://clutch.co/developers
     properties:
@@ -30,11 +28,10 @@ apis:
 name: Clutch
 tags:
   - B2B Reviews
-  - IT Services
   - Business Services
+  - IT Services
 type: Index
-image: 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
   - url: https://clutch.co/
