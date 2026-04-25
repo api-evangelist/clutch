@@ -1,41 +1,61 @@
 # Clutch (clutch)
 
-Clutch (https://clutch.co/) is a B2B ratings and reviews platform for IT, marketing, and business service providers. It connects buyers with verified service providers through in-depth client reviews, ratings, and curated rankings across categories including software development, digital marketing, IT services, design, and consulting. Clutch is widely used by businesses seeking vetted agency partners and by service providers looking to build credibility through third-party verified client feedback. Clutch offers an API that gives approved vendors and partners programmatic access to reviews, ratings, and company profile data.
+Clutch is a B2B ratings and reviews platform that helps businesses identify and connect with service providers, including IT services, marketing agencies, and software developers. Operating at clutch.co, the platform publishes verified client reviews and category rankings for software development, digital marketing, IT services, design, and consulting firms. Clutch exposes review and ratings data to approved partners and verified vendors through a partner API for integration into vendor websites, CRM systems, and marketing tools.
 
 **URL:** [https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml)
 
 ## Scope
 
 - **Type:** Index
-- **Position:** Consuming
+- **x-type:** company
 - **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - B2B Reviews, IT Services, Business Services
+- B2B Reviews
+- Business Services
+- IT Services
+- Ratings
 
 ## Timestamps
 
 - **Created:** 2026-03-24
-- **Modified:** 2026-03-24
+- **Modified:** 2026-04-23
 
 ## APIs
 
 ### Clutch API
 
-The Clutch API provides programmatic access to Clutch's B2B ratings and reviews platform, covering IT services, marketing agencies, and business service providers. Developers and verified vendors can retrieve company profiles, ratings, reviews, and service categories. The API enables integration of Clutch review data into third-party applications, websites, and CRM systems, allowing service providers to display verified client reviews and ratings badges. It is used for showcasing social proof, automating review collection, and building integrations with business intelligence and marketing tools. Authentication is handled via API keys issued to approved partners and vendors.
+The Clutch API provides programmatic access to Clutch's B2B ratings and reviews platform, covering IT services, marketing agencies, and business service providers. Approved vendors and partners can retrieve company profiles, ratings, reviews, and service categories. The API enables integration of Clutch review data into third-party applications, websites, and CRM systems, allowing service providers to display verified client reviews and ratings badges. Authentication is handled via API keys issued to approved partners and vendors.
 
 **Human URL:** [https://clutch.co/developers](https://clutch.co/developers)
 
-#### Tags:
+**Base URL:** https://api.clutch.co
 
- - B2B Reviews, IT Services, Business Services, Ratings
+#### Tags
+
+- B2B Reviews, Business Services, IT Services, Ratings, Reviews
 
 #### Properties
 
 - [Documentation](https://clutch.co/developers)
 - [Authentication](https://clutch.co/developers#authentication)
 - [Portal](https://clutch.co/profile/claim)
+
+#### Features
+
+- **Verified Reviews:** Programmatic retrieval of verified Clutch client reviews for vendor profiles.
+- **Ratings and Rankings:** Access to numeric ratings and category rankings.
+- **Company Profiles:** Retrieve metadata about service-provider profiles.
+- **Review Badges:** Generate embeddable badges showing rating, review count, and category placement.
+- **Service Categories:** Browse the canonical Clutch service taxonomy.
+
+#### Use Cases
+
+- **Embed Reviews on Vendor Sites:** Display verified Clutch reviews and ratings widgets on a service provider's own site.
+- **CRM Reputation Sync:** Sync Clutch review data into HubSpot, Salesforce, or other CRMs for sales enablement.
+- **Business Intelligence:** Pull review/rating trends into BI dashboards to track reputation over time.
+- **Lead Quality Signal:** Use Clutch presence and rating data as a quality signal in B2B prospecting.
 
 ## Common Properties
 
@@ -58,6 +78,6 @@ The Clutch API provides programmatic access to Clutch's B2B ratings and reviews 
 
 ## Maintainers
 
-**FN:** API Evangelist
+**FN:** Kin Lane
 
-**Email:** info@apievangelist.com
+**Email:** kin@apievangelist.com
