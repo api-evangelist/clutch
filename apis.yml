@@ -1,7 +1,7 @@
 aid: clutch
 url: https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml
 name: Clutch
-x-type: company
+kind: company
 tags:
   - B2B Reviews
   - Business Services
