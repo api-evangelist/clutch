@@ -8,7 +8,7 @@ tags:
   - IT Services
   - Ratings
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2026-03-24'
 modified: '2026-04-23'
@@ -30,7 +30,7 @@ apis:
       - IT Services
       - Ratings
       - Reviews
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.clutch.co
     humanURL: https://clutch.co/developers
     properties:
