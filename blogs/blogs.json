@@ -3,9 +3,10 @@
   "feeds": [
     {
       "source": "https://clutch.co/blog",
-      "error": "HTTPError"
+      "saved": 0,
+      "error": "HTTP 404 Not Found"
     }
   ],
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:33:12Z",
   "post_count": 0
 }

@@ -80,7 +80,7 @@ common:
     type: Portal
   - url: https://clutch.co/register
     name: Sign Up
-    type: SignUp
+    type: Signup
   - url: https://clutch.co/login
     name: Login
     type: Login
