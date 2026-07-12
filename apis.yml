@@ -69,6 +69,8 @@ apis:
       - name: Lead Quality Signal
         description: Use Clutch presence and rating data as a quality signal in B2B prospecting workflows.
 common:
+  - type: DomainSecurity
+    url: security/clutch-domain-security.yml
   - url: https://clutch.co/
     name: Clutch Website
     type: Website
