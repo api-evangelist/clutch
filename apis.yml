@@ -24,7 +24,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clutch.png
 access: 3rd-Party
 created: '2026-03-24'
 modified: '2026-04-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 description: >-
   Clutch is a B2B ratings and reviews platform that helps businesses identify and
   connect with service providers, including IT services, marketing agencies, and software
