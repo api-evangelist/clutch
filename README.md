@@ -1,4 +1,4 @@
-# Clutch (clutch)
+# Clutch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,84 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clutch is a B2B ratings and reviews platform that helps businesses identify and connect with service providers, including IT services, marketing agencies, and software developers. Operating at clutch.co, the platform publishes verified client reviews and category rankings for software development, digital marketing, IT services, design, and consulting firms. Clutch exposes review and ratings data to approved partners and verified vendors through a partner API for integration into vendor websites, CRM systems, and marketing tools.
+Clutch is a B2B ratings and reviews platform that helps businesses identify and connect with service providers, including IT services, marketing agencies, and software developers. Clutch (acquired by Twilio's parent ecosystem and operating at clutch.co) publishes verified client reviews and rankings for software development, digital marketing, IT services, design, and consulting firms. Clutch makes verified review and ratings data available to approved partners and verified vendors through a partner API for integration into vendor websites, CRM systems, and marketing tools.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/apis.yml)
+**Areas:** B2B Reviews · Business Services · IT Services · Ratings
 
-## Scope
+## Clutch on APIs.io
 
-- **Type:** Index
-- **x-type:** company
-- **Access:** 3rd-Party
+Everything profiled for Clutch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clutch/](https://apis.io/providers/clutch/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- B2B Reviews
-- Business Services
-- IT Services
-- Ratings
+- [Clutch API](https://apis.io/apis/clutch/clutch-api/) — The Clutch API provides programmatic access to Clutch's B2B ratings and reviews platform, covering IT services, marketing agencies, and business service…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Clutch API
+Authentication, trust centre, and vulnerability disclosure.
 
-The Clutch API provides programmatic access to Clutch's B2B ratings and reviews platform, covering IT services, marketing agencies, and business service providers. Approved vendors and partners can retrieve company profiles, ratings, reviews, and service categories. The API enables integration of Clutch review data into third-party applications, websites, and CRM systems, allowing service providers to display verified client reviews and ratings badges. Authentication is handled via API keys issued to approved partners and vendors.
+- [Clutch Domain Security](https://apis.io/security/clutch/clutch-domain-security/)
 
-**Human URL:** [https://clutch.co/developers](https://clutch.co/developers)
+#### Plans and pricing (1)
 
-**Base URL:** https://api.clutch.co
+Published plans, tiers and prices.
 
-#### Tags
+- [Clutch Plans Pricing](https://apis.io/plans/clutch/clutch-plans-pricing/)
 
-- B2B Reviews, Business Services, IT Services, Ratings, Reviews
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://clutch.co/developers)
-- [Authentication](https://clutch.co/developers#authentication)
-- [Portal](https://clutch.co/profile/claim)
+- [Clutch Rate Limits](https://apis.io/rate-limits/clutch/clutch-rate-limits/)
 
-#### Features
+#### FinOps (1)
 
-- **Verified Reviews:** Programmatic retrieval of verified Clutch client reviews for vendor profiles.
-- **Ratings and Rankings:** Access to numeric ratings and category rankings.
-- **Company Profiles:** Retrieve metadata about service-provider profiles.
-- **Review Badges:** Generate embeddable badges showing rating, review count, and category placement.
-- **Service Categories:** Browse the canonical Clutch service taxonomy.
+What the API costs to run, by operation.
 
-#### Use Cases
+- [Clutch Finops](https://apis.io/finops/clutch/clutch-finops/)
 
-- **Embed Reviews on Vendor Sites:** Display verified Clutch reviews and ratings widgets on a service provider's own site.
-- **CRM Reputation Sync:** Sync Clutch review data into HubSpot, Salesforce, or other CRMs for sales enablement.
-- **Business Intelligence:** Pull review/rating trends into BI dashboards to track reputation over time.
-- **Lead Quality Signal:** Use Clutch presence and rating data as a quality signal in B2B prospecting.
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://clutch.co/)
 - [Documentation](https://clutch.co/developers)
-- [Portal](https://clutch.co/profile/claim)
-- [SignUp](https://clutch.co/register)
-- [Login](https://clutch.co/login)
 - [Pricing](https://clutch.co/pricing)
-- [Authentication](https://clutch.co/developers#authentication)
-- [About](https://clutch.co/about-clutch)
 - [Support](https://clutch.co/contact-us)
-- [TermsOfService](https://clutch.co/legal/terms-of-use)
-- [PrivacyPolicy](https://clutch.co/legal/privacy-policy)
 - [Blog](https://clutch.co/blog)
-- [X](https://twitter.com/clutch_co)
-- [LinkedIn](https://www.linkedin.com/company/clutch-co)
-- [Facebook](https://www.facebook.com/clutch.co)
-- [Instagram](https://www.instagram.com/clutch.co)
+- [Terms of service](https://clutch.co/legal/terms-of-use)
+- [Privacy policy](https://clutch.co/legal/privacy-policy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 25.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clutch/](https://apis.io/providers/clutch/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clutch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clutch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
